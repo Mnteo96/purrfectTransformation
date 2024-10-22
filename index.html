@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Purrfect Transformations</title>
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Purrfect Transformations</h1>
+
+      <div id="cat-container" class="swiper cat-container">
+        <div id="cats" class="swiper-wrapper">
+          <!--Első cica-->
+          <div id="cat1" class="adult-cats swiper-slide">
+            <div id="cat-images">
+              <img
+                src="img/bengal-cat.png"
+                alt="Bengal cat"
+                id="bengal-adult-pic"
+                class="cats-img"
+              />
+              <img
+                src="img/bengal-kitten.png"
+                alt="Bengal kitten"
+                id="bengal-kitten-pic"
+                class="kittens-img"
+              />
+            </div>
+            <h2>Bengal cat</h2>
+            <button
+              class="transform-btn"
+              data-kitten-id="bengal-kitten-pic"
+              data-adult-id="bengal-adult-pic"
+            >
+              Make me a kitten
+            </button>
+          </div>
+
+          <!--Második cica-->
+          <div id="cat2" class="adult-cats swiper-slide">
+            <div id="cat-images">
+              <img
+                src="img/main-coon-cat.png"
+                alt="Maine Coon cat"
+                id="mainecoon-adult-pic"
+                class="cats-img"
+              />
+              <img
+                src="img/main-coon-kitten.png"
+                alt="Maine Coon kitten"
+                id="mainecoon-kitten-pic"
+                class="kittens-img"
+              />
+            </div>
+            <h2>Maine Coon cat</h2>
+            <button
+              class="transform-btn"
+              data-kitten-id="mainecoon-kitten-pic"
+              data-adult-id="mainecoon-adult-pic"
+            >
+              Make me a kitten
+            </button>
+          </div>
+
+          <!--Harmadik cica-->
+          <div id="cat3" class="adult-cats swiper-slide">
+            <div id="cat-images">
+              <img
+                src="img/persian-cat.png"
+                alt="Persian cat"
+                id="persian-adult-pic"
+                class="cats-img"
+              />
+              <img
+                src="img/persian-kitten.png"
+                alt="Persian kitten"
+                id="persian-kitten-pic"
+                class="kittens-img"
+              />
+            </div>
+            <h2>Persian cat</h2>
+            <button
+              class="transform-btn"
+              data-kitten-id="persian-kitten-pic"
+              data-adult-id="persian-adult-pic"
+            >
+              Make me a kitten
+            </button>
+          </div>
+
+          <!--Negyedik cica-->
+          <div id="cat4" class="adult-cats swiper-slide">
+            <div id="cat-images">
+              <img
+                src="img/scottish-cat.png"
+                alt="Scottish cat"
+                id="scottish-adult-pic"
+                class="cats-img"
+              />
+              <img
+                src="img/scottish-kitten.png"
+                alt="Scottish kitten"
+                id="scottish-kitten-pic"
+                class="kittens-img"
+              />
+            </div>
+            <h2>Scottish Fold cat</h2>
+            <button
+              class="transform-btn"
+              data-kitten-id="scottish-kitten-pic"
+              data-adult-id="scottish-adult-pic"
+            >
+              Make me a kitten
+            </button>
+          </div>
+
+          <!--Ötödik cica-->
+          <div id="cat5" class="adult-cats swiper-slide">
+            <div id="cat-images">
+              <img
+                src="img/siamese-cat.png"
+                alt="Siamese cat"
+                id="siamese-adult-pic"
+                class="cats-img"
+              />
+              <img
+                src="img/siamese-kitten.png"
+                alt="Siamese kitten"
+                id="siamese-kitten-pic"
+                class="kittens-img"
+              />
+            </div>
+            <h2>Siamese cat</h2>
+            <button
+              class="transform-btn"
+              data-kitten-id="siamese-kitten-pic"
+              data-adult-id="siamese-adult-pic"
+            >
+              Make me a kitten
+            </button>
+          </div>
+
+          <!--Hatodik cica-->
+          <div id="cat6" class="adult-cats swiper-slide">
+            <div id="cat-images">
+              <img
+                src="img/sphinx-cat.png"
+                alt="Sphynx cat"
+                id="sphynx-adult-pic"
+                class="cats-img"
+              />
+              <img
+                src="img/sphinx-kitten.png"
+                alt="Sphynx kitten"
+                id="sphynx-kitten-pic"
+                class="kittens-img"
+              />
+            </div>
+            <h2>Sphynx cat</h2>
+            <button
+              class="transform-btn"
+              data-kitten-id="sphynx-kitten-pic"
+              data-adult-id="sphynx-adult-pic"
+            >
+              Make me a kitten
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
